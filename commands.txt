@@ -1,0 +1,11 @@
+php artisan make:model Branch -a
+php artisan make:model --migration --controller Branch --resource
+php artisan make:model Product -mcr
+
+php artisan make:command MakeViewCommand
+
+php artisan make:view branchs.index
+
+php artisan make:view branchs.create
+
+php artisan make:view branchs.edit
